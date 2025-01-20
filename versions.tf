@@ -19,7 +19,7 @@ terraform {
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = ">= 3.30.0, < 6"
+      version = ">= 3.30.0, < 7"
     }
     random = {
       source  = "hashicorp/random"
@@ -28,6 +28,6 @@ terraform {
   }
 
   provider_meta "google" {
-    module_name = "blueprints/terraform/terraform-google-vpn/v4.0.0"
+    module_name = "blueprints/terraform/terraform-google-vpn/v4.2.0"
   }
 }
